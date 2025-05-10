@@ -1,0 +1,36 @@
+
+.botao-nav-consultas{
+    outline: none;
+    border: 1px solid  var(--cor--preto);;
+    height: 35px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: var(--cor--verde);
+    color:  var(--cor--preto);
+    font-size: 16px;
+}
+
+.botao-nav-consultas a{
+    text-decoration: none;
+    color: var(--cor--branco);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.form-agendar-consultas{
+    width: 80%;
+    border: 1px solid var(--cor--preto);
+    border-radius: 15px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+textarea{
+    width: 500px;
+    height: 100px;
+    min-width: 200px;
+    min-height:100px;
+}
